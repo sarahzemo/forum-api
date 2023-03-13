@@ -182,14 +182,14 @@ describe('CommentRepositoryPostgres.test', () => {
                     id: 'comment-123',
                     content: 'Ga tau mau comment apa',
                     username: 'dicoding',
-                    created_at: '2023-02-26T17:26:14.499Z',
+                    created_at: '2023-02-27T00:26:14.499Z',
                     is_delete: false
                 }),
                 new DetailComment({
                     id: 'comment-124',
                     content: 'Ga tau mau comment apa',
                     username: 'dicoding',
-                    created_at: '2023-02-26T17:26:14.499Z',
+                    created_at: '2023-02-27T00:26:14.499Z',
                     is_delete: false
                 })
             ]);
