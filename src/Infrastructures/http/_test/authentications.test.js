@@ -11,8 +11,8 @@ describe('/authentications endpoint', () => {
   });
 
   afterEach(async () => {
-    await UsersTableTestHelper.cleanTable();
     await AuthenticationsTableTestHelper.cleanTable();
+    await UsersTableTestHelper.cleanTable();
   });
 
   describe('when POST /authentications', () => {
